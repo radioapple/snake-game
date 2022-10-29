@@ -1,12 +1,18 @@
 import java.util.ArrayList;
 
 public class Snake {
+	/* TODO:
+	 * 1. Create the constructor so that it sets the values for the class variables from the <Game> class' constructor.
+	 */
+	
+	
 	/*
 	 * ===== Fields =====
 	 */
 	// CLass variables
 	public static double defaultSpeed;
 	public static double defaultDoubleSpeed;
+	public static int defaultScore; // the score a <Snake> object starts out with
 	// Instance variables
 	public double width;
 	public double length;
